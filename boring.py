@@ -51,4 +51,3 @@ green_attitude = Tanker(9876509, 'VLCC', 299999,'Hyundai Mipo', ['BWTS'])
 
 print(green_attitude.equipment)
 
-import numpy as np
