@@ -102,7 +102,7 @@ content = page_html_code*2
 content_1 = content % (str(news_array[0].article_headline), str(news_array[0].article_description), str(news_array[0].article_link), str(news_array[0].source),
 str(news_array[1].article_headline), str(news_array[1].article_description), str(news_array[1].article_link), str(news_array[1].source))
 
-f.write()
+f.write(content_1)
 f.close()
 
 filename = 'file:///Users/joshadjaho/Desktop/Python work/Shippingnews.html'
